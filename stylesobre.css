@@ -1,0 +1,46 @@
+.section-foto{
+    height: 75vh;
+    background: center / cover no-repeat url(imgs/image\ \(4\).png) ;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.247);
+}
+
+.containerlista{
+    font-family: var(--poppins);
+    background-color: var(--amarelo);
+    margin-top: 0;
+    padding: 20px;
+    
+}
+
+.container-baglist{
+    font-family: var(--poppins);
+    background-color: rgb(238, 236, 236);
+    color: rgb(170, 170, 3);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-block: 50px;
+}
+
+.bagagem-list{
+    columns: 4;
+    list-style: none;
+    
+}
+
+.bagagem-list h1{
+    font-size: 2rem;
+}
+
+
+
+@media(max-width:700px){
+    .bagagem-list{
+        columns: 2;
+    }
+}
