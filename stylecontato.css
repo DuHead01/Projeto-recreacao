@@ -2,3 +2,92 @@
     background: center / cover no-repeat url(imgs/image\ \(5\).png) ;
 
 }
+
+a{
+    text-decoration: none;
+}
+
+.container-contato{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-family: var(--poppins);
+    padding-block: 20px;
+}
+
+
+.container-ins h1{
+    margin: auto;
+    text-align: center;
+    color: var(--roxo);
+    padding-bottom: 25px;
+    padding-top: 35px;
+}
+
+.card-contato{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    gap: 20px;
+    width: 600px;
+    padding: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.267);
+    
+}
+
+.card-contato p{
+    font-style: italic;
+    color: rgb(63, 63, 63);
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.card-contato img{
+    width: 150px;
+    
+}
+
+#botao2{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+@media (max-width:750px){
+
+    .container-ins h1{
+    font-size: 20px;
+
+}
+
+.card-contato{
+    width: 320px;
+}
+
+    .card-contato img{
+    width: 120px;
+    
+}
+
+.card-contato p{
+    font-size: 0.7rem;
+}
+
+}
+
+@media (max-width:400px){
+
+    .card-contato{
+        width: 200px;
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+    }
+
+    .container-ins h1{
+    font-size: 15px;
+
+}
+}
+
