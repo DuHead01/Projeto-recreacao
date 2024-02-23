@@ -29,18 +29,113 @@
                 <p>Agende já, a melhor diversão!</p>
             </div>
         </section> 
-        <section class="container-contato">
+        <section class="container-contato" >
             <div class="container-ins">
-                <h1>NOS CHAME PELO WHATSAPP</h1>
+                <h1>NOS CHAME PELO WHATSAPP!</h1>
                 <div class="card-contato">
                     <img src="imgs/whatsapp (3).png" alt="whatsapp logo">
                     <p>AGENDE JÁ! A Turma do Perdiga também agendamos festas e eventos pelo whatsapp é simples, rapido e facil!</p>
                 </div>
                 <a href="https://api.whatsapp.com/send?phone=5519982179812&text=Boa%20tarde,%20gostaria%20de%20fazer%20um%20or%C3%A7amento!"><button id="botao2">ENVIAR WHATSAPP</button></a>
             </div>
-            
+        </section>
+
+        <section class="atendimento">
+            <div class="container-form">
+                <h1 class="tituloform">ORÇAMENTO PERSONALIZADO</h1>
+                <div class="atendimento-container">
+                    <form action="" method="post" class="form">
+                        
+                        <label for="nome">Nome</label> 
+                        <input type="text" required placeholder="Nome">
+                        <label for="email" >E-mail</label>
+                        <input type="text"required placeholder="E-mail">
+                        <label for="telefone" >Telefone</label>
+                        <input type="text"required placeholder="Telefone">
+                        
+                        <h1>DADOS DOS EVENTOS</h1>
+                        <label for="">Tipo de evento</label>
+                        <div class="select">
+                            <select name="" id="" required>
+                                <option value="">Festa Infantil</option>
+                                <option value="">Confraternização de empresa</option>
+                                <option value="">Colônia de férias</option>
+                            </select>
+                        </div>
+                        <div class="dados-eventos">
+                            <label for="">Data do evento</label>
+                            <input type="date" required>
+                            <label for="">Localidade da festa</label>
+                            <input type="text" placeholder="Endereço" required>
+                            <label for="">CEP</label>
+                            <input type="text" placeholder="CEP" required>   
+                            <label for="">Qual a idade do aniversariante?</label>
+                            <input type="number" required>
+    
+                            <p>Qual a idade media das crianças</p>
+                            <p><input type="checkbox" name="" id="" class="checkbox">04 a 06 anos</p>
+                            <p><input type="checkbox" name="" id="" class="checkbox">07 a 09 anos</p>
+                            <p><input type="checkbox" name="" id="" class="checkbox">10 a 12 anos</p>
+    
+                            <label for="">Quantas crianças terão?</label>
+                            <input type="text" required>
+                            
+                            <div class="textarea">
+                                <label for="">Algum pedido especial que não possa faltar? (Opcional)</label>
+                                <textarea name="" id="" cols="30" rows="10"></textarea>
+                            </div>
+    
+                            
+                        </div>
+                        <button id="botao">ENVIAR</button>
+                    </form>
+                </div>
+            </div>
         </section>
     </main>
+    <footer class="footer">
+        <div class="containerfooter">
+             <ul class="list-container">
+                 <li class="item">
+                     <h2>ENDEREÇO</h2>
+                     <p>Rua ficticia, 99
+                         <br>
+                         Bairro ficticio
+                         <br>
+                         Indaiatuba - SP
+                     </p>
+                 </li>
+                 <li class="item" id="itemb">
+                     <h2>MAPA DO SITE</h2>
+                     <p>
+                         -Home
+                         <br>
+                         -Sobre 
+                         <br>
+                         -Contato
+                     </p>
+                 </li>
+                 <li class="item" id="itemb">
+                     <h2>CONTATO</h2>
+                     <p>
+                         +55 (19)99999-99999
+                         <br>
+                         contato@turmaperdiga.com
+                     </p>
+                 </li>
+                 <li class="item" id="itemb"> 
+                     <h2>REDES SOCIAIS</h2>
+                     <a href="https://www.facebook.com/TurmaDoPerdiga/?locale=pt_BR"><img src="imgs/facebook (2).png" alt=""></a>
+                     <a href="https://www.instagram.com/turmadoperdiga/"><img src="imgs/instagram (3).png" alt=""></a>
+                     <a href="https://api.whatsapp.com/send?phone=5519982179812&text=Boa%20tarde,%20gostaria%20de%20fazer%20um%20or%C3%A7amento!"><img src="imgs/whatsapp (2).png" alt=""></a>
+                 </li>
+             </ul>
+        </div>
+     </footer>
+     <footer class="foot2">
+         <p><strong>Site criado unica e exclusivamente para fins estudantis. &copy;Eduardo Soares Filho - 2024</strong></p>
+ 
+      </footer>
     <script defer src="app.js"></script>
 </body>
 </html>
