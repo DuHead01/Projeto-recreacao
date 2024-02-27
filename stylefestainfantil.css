@@ -28,6 +28,8 @@
     color: #62217E;
  }
 
+ 
+
  @media (max-width:730px){
 
     .containerinFI{
@@ -40,7 +42,7 @@
     }
 
     .textoFI p{
-        text-align: center;
+        text-align: justify;
         font-size: 15px;
     }
 
