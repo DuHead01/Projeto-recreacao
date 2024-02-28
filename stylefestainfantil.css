@@ -30,11 +30,14 @@ main{
  .textoFI h1{
     color: #62217E;
  }
-
  .section-cards{
   display: flex;
   justify-content: space-around;
  }
+
+ 
+
+ @media (max-width:730px){
 
  .cardsbrinca{
   width: 300px;
@@ -43,6 +46,10 @@ main{
 
  }
 
+    .textoFI p{
+        text-align: justify;
+        font-size: 15px;
+    }
 
  @media screen and (max-width: 768px) {
 
@@ -73,4 +80,4 @@ main{
  }
 
 
- 
+}
