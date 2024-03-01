@@ -3,7 +3,7 @@ main{
 }
 
 .section-foto{
-    background: center / cover no-repeat url(imgs/image\ \(6\).png) ;
+    background: center / cover no-repeat url(imgs/image\ \(1\).png) ;
 }
 
 .containerinFI{
@@ -51,6 +51,10 @@ main{
   width: 200px;
  }
 
+ .card{
+  margin-top: 20px;
+ }
+
 .span{
   display: flex;
   justify-content: center;
@@ -62,11 +66,8 @@ main{
 }
 
  @media (max-width:920px){
-
   .card-brincadeiras{
-
     flex-wrap: wrap;
-
   }
 
  }

@@ -1,0 +1,7 @@
+.section-foto{
+    background: center / cover no-repeat url(imgs/image\ \(9\).png) ;
+}
+
+.card-brincadeiras{
+    flex-wrap: wrap;
+}

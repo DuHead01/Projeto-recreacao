@@ -1,0 +1,29 @@
+.section-foto{
+    background: center / cover no-repeat url(imgs/image\ \(7\).png) ;
+}
+
+.containerinFI{
+    background-color: #ffffff;
+ }
+
+
+
+.imgFI img{
+    border: 5px solid #F2D95C;
+    
+ }
+
+ .card-brincadeiras{
+    padding-top:80px;
+    flex-wrap: wrap;
+ }
+
+ 
+
+.card-brincadeiras, .span{
+    background-color: var(--roxo);
+}
+
+.card{
+    background-color: #ffffff;
+}
